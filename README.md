@@ -1,6 +1,7 @@
 # Auto Refresh Extension
  Auto Refresh Extension for any browser
- Steps to add it into your Browser
+ 
+ >Steps to add it into your Browser
  1. Pull this repository or download all files in a folder name extension (or any name).
  2. Open your browser and go to manage extension.
  3. Enable developer option and then click on load unpacked.
