@@ -7,8 +7,10 @@ document.getElementById('start').addEventListener('click', () => {
   }
 
   chrome.runtime.sendMessage({ action: 'startRefresh', interval });
+  window.close();
 });
 
 document.getElementById('stop').addEventListener('click', () => {
   chrome.runtime.sendMessage({ action: 'stopRefresh' });
+  window.close();
 });
